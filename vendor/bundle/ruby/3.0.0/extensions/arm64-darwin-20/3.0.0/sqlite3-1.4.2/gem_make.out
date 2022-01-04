@@ -1,5 +1,5 @@
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/sqlite3-1.4.2/ext/sqlite3
-/Users/honami/.rbenv/versions/3.0.3/bin/ruby -I /Users/honami/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220105-8409-3jhg1h.rb extconf.rb
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/sqlite3-1.4.2/ext/sqlite3
+/Users/honami/.rbenv/versions/3.0.3/bin/ruby -I /Users/honami/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220104-860-vfuij1.rb extconf.rb
 checking for sqlite3.h... yes
 checking for pthread_create() in -lpthread... yes
 checking for -ldl... yes
@@ -17,10 +17,10 @@ checking for sqlite3_int64 in sqlite3.h... yes
 checking for sqlite3_uint64 in sqlite3.h... yes
 creating Makefile
 
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/sqlite3-1.4.2/ext/sqlite3
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/sqlite3-1.4.2/ext/sqlite3
 make DESTDIR\= clean
 
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/sqlite3-1.4.2/ext/sqlite3
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/sqlite3-1.4.2/ext/sqlite3
 make DESTDIR\=
 compiling aggregator.c
 compiling backup.c
@@ -74,6 +74,6 @@ statement.c:400:18: warning: implicit conversion loses integer precision: 'long'
 2 warnings generated.
 linking shared-object sqlite3/sqlite3_native.bundle
 
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/sqlite3-1.4.2/ext/sqlite3
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/sqlite3-1.4.2/ext/sqlite3
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20220105-8409-3d0ux1/sqlite3
+/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20220104-860-n3nbnw/sqlite3
