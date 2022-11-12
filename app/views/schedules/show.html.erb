@@ -1,0 +1,46 @@
+<div class="main_container">
+ <div class="information">
+  <h2>スケジュール詳細</h2>
+ </div>
+
+<table>
+ <tbody>
+   <tr>
+    <th>タイトル</th>
+    <td><%= @schedule.title %></td>
+   </tr>
+
+   <tr>
+    <th>開始日</th>
+    <td><%= @schedule.start_at %></td>
+   </tr>
+
+   <tr>
+    <th>投稿日時</th>
+    <td><%= @schedule.end_at %></td>
+   </tr>
+
+   <tr>
+    <th>終日</th>
+    <td><%=
+    if @schedule.all_day == true
+      "◯"
+    end %></td>
+   </tr>
+    <tr>
+    <th>スケジュールメモ</th>
+    <td><%= @schedule.memo %></td>
+   </tr>
+  </tbody>
+ </table>
+
+ <ul>
+  <li><%= link_to"スケジュール一覧に戻る",:schedules %></li>
+  <li><%= link_to "編集する", [:edit, @schedule] %></li>
+  <li><%= link_to "削除する", @schedule, method: :delete, data: { confirm: "本当に削除しますか？" } %></li>
+ </ul>
+ </div>
+
+ <footer>
+ <h1>現在の日時<%= Date.current.strftime('%Y/%m/%d') %>  </h1>
+</footer>

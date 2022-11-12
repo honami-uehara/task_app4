@@ -1,11 +1,11 @@
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-/Users/honami/.rbenv/versions/3.0.3/bin/ruby -I /Users/honami/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220105-8409-85db6e.rb extconf.rb
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+/Users/honami/.rbenv/versions/3.0.3/bin/ruby -I /Users/honami/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220104-860-1y2kem.rb extconf.rb
 creating Makefile
 
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\= clean
 
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\=
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
@@ -75,6 +75,6 @@ compiling ./libsass/src/util_string.cpp
 compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.bundle
 
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20220105-8409-csy52v/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20220104-860-9x351x/sassc

@@ -1,5 +1,5 @@
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
-/Users/honami/.rbenv/versions/3.0.3/bin/ruby -I /Users/honami/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220105-8409-wo9f3t.rb extconf.rb
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
+/Users/honami/.rbenv/versions/3.0.3/bin/ruby -I /Users/honami/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220104-860-f6gbn.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for linux/io_uring.h... no
@@ -12,10 +12,10 @@ checking for port_event_t in port.h... no
 checking for sys/resource.h... yes
 creating Makefile
 
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
 make DESTDIR\= clean
 
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
 make DESTDIR\=
 compiling bytebuffer.c
 bytebuffer.c:308:20: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
@@ -105,6 +105,6 @@ VALUE rb_ensure(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE),VALUE);
 1 warning generated.
 linking shared-object nio4r_ext.bundle
 
-current directory: /Users/honami/workspace/task_app4/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
+current directory: /Users/honami/workspace/task_app3/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20220105-8409-zcf52n
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20220104-860-8r906f
